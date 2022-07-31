@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --cor_padrao: #2196F3;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+main{
+    margin-top: 35px;
+}
+header{
+    background: linear-gradient(to left, #2196F3, #0D47A1);
+    height: 200px;
+}
+.material-symbols-outlined{
+    color: var(--cor_padrao) ;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+div#icon{
+    padding-top: 50px;
+}
+div#cabecalho{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+div#cabecalho h2{
+    padding: 5px;
+    font-size: 15px;
+}
+form#formulario{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 15px 40px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+input.endereço{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 5px;
+}
+input.endereço, input#button{
+    border-radius: 3px; 
+}
+input#buscar{
+    background-color: var(--cor_padrao);
+    color: white;
+    border: 1px solid var(--cor_padrao) ;
+    box-shadow: 1px 3px 2px #3D5AFE;
+    margin: 5px 0 15px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 2</title>
+</head>
+<body>
+<header>
+    <div id="cabecalho">
+        <h1>ME ACHA!</h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+    </div>
+    <div id="icon" class="flex">
+        <span class="material-symbols-outlined travel" >
+            travel_explore
+        </span>
+    </div>
+</header>
+<main>
+    <form method="get" id="formulario" class="flex">
+        <fieldset>
+            <label for="cep">Cep</label>
+            <input type="text" name="cep" id="cep" class="endereço">
+            <label for="rua">Rua</label>
+            <input type="text" name="logradouro" id="logradouro" class="endereço" disabled>
+            <label for="bairro">Bairro</label>
+            <input type="text" name="bairro" id="bairro" class="endereço" disabled>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="localidade" id="localidade" class="endereço" disabled>
+            <label for="estado">Estado</label>
+            <input type="text" name="estado" id="uf" class="endereço" disabled>
+            <input type="button" value="BUSCAR" class="endereço" id="buscar">
+         </fieldset>
+    </form>
+</main>
+
+</body>
+</html>
